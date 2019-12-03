@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  background: lightblue;
+  background: #fffdd0;
   font-family: 'PT Sans', sans-serif;
   margin:0;
 }
@@ -47,7 +47,7 @@ h3{
 }
 
 a {
-  color:#EA1A1A;
+  /*color:#EA1A1A;*/
 }
 
 a:hover{
@@ -82,13 +82,13 @@ header{
   position: relative;
 }
 header,footer{
-  background: #fceade;
+  background: #fffdd0;
   color: #120B10;
 }
 
 
 header h1, header h2{
-color: #0000FF;
+/*color: #0000FF; */
 margin:0;
 }
 
@@ -116,7 +116,7 @@ footer{
 ------------------------------------ */
 nav {
   text-align: center;
-  background: white;
+  background:#d0d2ff;
   position: fixed;
   width: 100%;
   top:0;
@@ -132,7 +132,7 @@ nav a {
 /* Work Experience
 ------------------------------------ */
 .work{
-  background: #ff8a5b;
+  background:#fffdd0; 
 }
 
 h3 ~ p {
@@ -150,14 +150,9 @@ h3 ~ p {
 /* Education
 ------------------------------------ */
 .education{
-  background: #ffffff;
-  /* sets gradient and image */
-background: linear-gradient(rgba(141,153,174, 0.8),rgba(141,153,174, 0.5)),
-               url(../images/london.jpg) no-repeat fixed;
-background-size: cover;
-color: #ffffff;
+  background:#fffdd0;
 }
-}
+
 
 p + h3{
   margin-top:30px;
