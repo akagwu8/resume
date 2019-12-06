@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  background: #fffdd0;
+  /* background: #fffdd0; */
   font-family: 'PT Sans', sans-serif;
   margin:0;
 }
@@ -82,7 +82,7 @@ header{
   position: relative;
 }
 header,footer{
-  background: #fffdd0;
+  /* background: #fffdd0; */
   color: #120B10;
 }
 
@@ -116,10 +116,11 @@ footer{
 ------------------------------------ */
 nav {
   text-align: center;
-  background:#d0d2ff;
+  background:black;
   position: fixed;
   width: 100%;
   top:0;
+  color: white;
 }
 
 nav a {
@@ -128,11 +129,12 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 700;
+  color: white;
 }
 /* Work Experience
 ------------------------------------ */
 .work{
-  background:#fffdd0; 
+  /* background:#fffdd0;  */
 }
 
 h3 ~ p {
@@ -150,7 +152,7 @@ h3 ~ p {
 /* Education
 ------------------------------------ */
 .education{
-  background:#fffdd0;
+  /* background:#fffdd0; */
 }
 
 
